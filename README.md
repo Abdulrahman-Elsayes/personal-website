@@ -5,7 +5,7 @@ Welcome to my personal website! This project is an experimental platform where I
 ## Live Website
 
 You can visit the live version of the website here:  
-**[[Live Website Link](https://personal-website-theta-gilt.vercel.app/)]([https://yourwebsite.com](https://personal-website-theta-gilt.vercel.app/))**
+**[[Live Website Link](https://personal-website-theta-gilt.vercel.app/)])**
 
 *(Replace `https://yourwebsite.com` with the actual URL of your website)*
 
