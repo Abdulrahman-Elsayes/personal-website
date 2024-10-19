@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- css style -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Abdulrahman Elsayes</title>
+  </head>
+  <body>
+    <div class="container">
+      <video class="video__loop" autoplay loop muted>
+        <source src="./video-loop.mp4" type="video/mp4" />
+      </video>
+
+      <header class="header">
+        <label for="menu" class="burger__menu">
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+          <div class="burger-menu__bar"></div>
+        </label>
+        <input type="checkbox" id="menu" class="burger-menu__checkbox" />
+
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li>
+              <a href="#bio" class="navigation__link navigation__bio">Bio</a>
+            </li>
+            <li>
+              <a href="#skill" class="navigation__link navigation__skill"
+                >Skills</a
+              >
+            </li>
+            <li>
+              <a href="#media" class="navigation__link navigation__media"
+                >Media</a
+              >
+            </li>
+            <li>
+              <a href="#projects" class="navigation__link navigation__projects"
+                >Projects</a
+              >
+            </li>
+            <li>
+              <a href="#clients" class="navigation__link navigation__clients"
+                >My Clients</a
+              >
+            </li>
+            <li>
+              <a href="#contacts" class="navigation__link navigation__contacts"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__heading">
+            Hi There, I 'm A Passionate Software Engineer
+          </h1>
+          <p class="bio__objective">
+            My name is <span class="bio__name">Abdulrahman Elsayes</span>, and I
+            am a frontend development student at
+            <a href="https://almdrasa.com/" class="bio__almadrasa">Almadrasa.</a
+            >You can connect with me on
+            <a href="https://github.com/Abdulrahman-Elsayes" class="bio__github"
+              >[GitHub]</a
+            >
+            and
+            <a
+              href="https://www.linkedin.com/in/abdulrahman-elsayes/"
+              class="bio__linkedin"
+              >[LinkedIn]</a
+            >.
+          </p>
+          <a href="#contacts" class="bio__links say-hi-link">Say Hi</a>
+          <a href="#" class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow">↓</span></a
+          >
+        </div>
+        <div class="bio__pic-contant">
+          <img
+            class="bio__pic"
+            src="./img/personal-pic.png"
+            alt="image of abdulrahman elsayes"
+          />
+        </div>
+      </section>
+
+      <section id="skill" class="skills section section__with-bg">
+        <h2 class="h2__heading">Skills</h2>
+
+        <ul class="skills__list">
+          <li class="skills__item">
+            <h2 class="skills__title">HTML</h2>
+            <span class="skills_years"> 1 year </span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">CSS</h2>
+            <span class="skills_years"> 1 year </span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Javascript</h2>
+            <span class="skills_years"> 1 year </span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React</h2>
+            <span class="skills_years"> 1 year </span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">Redux</h2>
+            <span class="skills_years"> 1 year </span>
+          </li>
+          <li class="skills__item">
+            <h2 class="skills__title">React Testing Library</h2>
+            <span class="skills_years"> 1 year </span>
+          </li>
+        </ul>
+      </section>
+
+      <section id="media" class="media section">
+        <video class="media__video" poster="./img/thumbnail.jpg" controls>
+          <source src="./video.mp4" type="video/mp4" />
+        </video>
+      </section>
+
+      <section id="projects" class="projects section">
+        <h2 class="h2__heading">
+          My Featured <br />
+          Projects
+        </h2>
+
+        <div class="projects__main">
+          <img
+            class="projects__img responsive-img"
+            src="./img/project-1.jpg"
+            alt="Quran Tab Extension
+          "
+          />
+          <div class="projects__data">
+            <h3 class="h3__heading">
+              Quran Tab <br />
+              Extention
+            </h3>
+            <p class="projects__description">
+              Quran Tab is an Islamic new tab page that will keep you inspired
+              by a verse from the Quran every time you open a new tab that helps
+              you achieve your "Khatma" and keeps you connected with the words
+              of Allah.
+            </p>
+            <a
+              class="projects__link"
+              href="https://bit.ly/qt-chrome"
+              target="_blank"
+              >Chrome Link</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://bit.ly/qt-edge"
+              target="_blank"
+              >Edge Link</a
+            >
+          </div>
+
+          <div class="projects__data">
+            <h3 class="h3__heading">
+              Quran Station <br />
+              Extension
+            </h3>
+            <p class="projects__description">
+              Small extension that gives you access to over 100 stations to help
+              you listen to the Quran from your favorite reciters easily
+              Quran-Station has over 100 stations to help you listen to the
+              Quran from your favorite reciters in a quick and easy way.
+            </p>
+            <a
+              class="projects__link"
+              href="https://bit.ly/qs-chrome"
+              target="_blank"
+              >Chrome Link</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://bit.ly/qs-firefox"
+              target="_blank"
+              >Firefox Link</a
+            >
+            <span>-</span>
+            <a
+              class="projects__link"
+              href="https://bit.ly/quran-station-edge"
+              target="_blank"
+              >Edge Link</a
+            >
+          </div>
+          <img
+            class="projects__img responsive-img"
+            src="./img/project-2.jpg"
+            alt="Quran Tab Extension"
+          />
+        </div>
+      </section>
+
+      <section id="clients" class="clients section section__with-bg">
+        <h2 class="h2__heading">
+          What My <br />
+          Clients Says.
+        </h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__opinion">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus
+              alias quibusdam vitae? Quae labore, quia repellendus possimus
+              autem doloribus sint corrupti sequi culpa laboriosam, officia quos
+              dolorum eum aliquam. Impedit.
+            </p>
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Perspiciatis ratione, quas at nam officia, modi corporis non
+              obcaecati iure neque consectetur doloribus, et debitis deserunt
+              inventore tempore nostrum. Unde, est.
+            </p>
+            <p class="clients__opinion">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi
+              delectus corrupti iste ullam eligendi, sunt sit, at adipisci
+              recusandae placeat asperiores sint inventore eveniet molestiae!
+              Magnam, omnis. Autem, voluptatibus totam!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contacts" class="contacts section">
+        <div>
+          <p class="contact__description">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+          <a class="contacts__email" href="mailto:abdosayes44@gmail.com"
+            >example@gmail.com</a
+          >
+          <div class="contact__socials">
+            <a
+              href="https://github.com/Abdulrahman-Elsayes"
+              class="contact__social"
+            >
+              <img src="./img/brand/github.svg" alt="github icon" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/abdulrahman-elsayes/"
+              class="contact__social"
+            >
+              <img src="./img/brand/LinkedIn.svg" alt="linkedin icon" />
+            </a>
+          </div>
+        </div>
+        <div class="contact__formContent">
+          <h2 class="h2__heading">
+            Let's Work <br />
+            Together!
+          </h2>
+
+          <form action="result.html">
+            <div class="contact__inputs">
+              <input
+                name="fullName"
+                type="text"
+                class="contact__input"
+                placeholder="Full Name"
+              />
+              <input name="phoneNumber" type="tel="" class="contact__input"
+              placeholder="Phone No." pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              required />
+            </div>
+            <textarea
+              class="contact__input contact__textarea"
+              name="description"
+              id="description"
+              rows="1"
+              placeholder="Your Massage"
+            ></textarea>
+            <input
+              type="submit"
+              value="Send Me Massage"
+              class="contact__button"
+            />
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">© 2024 by Abdul_Rahman El_Sayes</footer>
+    </div>
+  </body>
+</html>
